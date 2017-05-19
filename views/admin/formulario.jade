@@ -1,0 +1,93 @@
+doctype html
+html(lang='es')
+	head
+		title
+		meta(charset='utf-8')
+		meta(name="viewport", content="width=device-width, initial-scale=1, maximum-scale=1")
+		link(rel='stylesheet', type='text/css', href='css/estilos.css')
+		link(rel='stylesheet', type='text/css', href='fonts/style.css')
+		link(rel='stylesheet', type='text/css', href='fonts2/style.css')
+		link(rel='stylesheet', type='text/css', href='fonts3/style.css')
+		link(rel='stylesheet', type='text/css', href='fonts4/style.css')
+		link(href='https://fonts.googleapis.com/css?family=Raleway:800', rel='stylesheet')
+		link(href="https://fonts.googleapis.com/css?family=Slabo+27px", rel="stylesheet")
+		script(type='text/javascript', src="script/funciones.js")
+	body
+		header.principal#pegajoso
+			.agrupacion#esconder
+				a.inicio(href="/")
+					h1.encabezado EL ANTOJO
+				a.inicio(href="/")
+					h3.subtitulo RESTAURANTE
+			div.iconomenu
+				h2.vision Menú
+				div.amenu(onclick="myFuncion()")
+					span.icon-menu(for="btn-menu")
+			div.links#lincentrar
+				a.cerrar(href="/cerrar")=ce
+				div.redes
+					a.imagenUsuario(href='/admin')
+						span.icon-user.acomodo
+					h5.usu=nombre
+					.buscas
+						h4.buscas Buscanos tambien en
+						a.decoracion(href='https://www.facebook.com/pages/El-Antojo-Restaurant/1509521349276679?fref=ts')
+							span.icon-facebook
+						a.decoracion(href='')
+							span.icon-youtube
+						a.decoracion(href='')
+							span.icon-instagram
+				.enlaces
+					a.vinculos.sinmargen(href='/') Inicio
+					a.vinculos(href='/menu') Menú
+					a.vinculos(href='#') Contacto 
+					a.vinculos(href='/admin') Acceder
+					a.vinculos(href='#') Reservaciones
+			div.links2#puto
+				a.cerrar(href="/cerrar")=ce
+				div.redes2
+					a.imagenUsuario(href='/admin')
+						span.icon-user.acomodo
+					h5.usu=nombre
+					.buscas
+						h4.buscas Buscanos tambien en
+						a.decoracion(href='https://www.facebook.com/pages/El-Antojo-Restaurant/1509521349276679?fref=ts')
+							span.icon-facebook
+						a.decoracion(href='')
+							span.icon-youtube
+						a.decoracion(href='')
+							span.icon-instagram
+				.enlaces
+					div.ajuste
+						a.vinculos2(href='/') Inicio
+					div.ajuste
+						a.vinculos2(href='/menu') Menú
+					div.ajuste
+						a.vinculos2(href='#') Contacto 
+					div.ajuste
+						a.vinculos2(href='/admin') Acceder
+					div.ajuste
+						a.vinculos2(href='#') Reservaciones
+		p(style="text-align: center; margin-top: 80px; margin-bottom: 20px; font-size: 26px; color: #34728c;") Por favor, introduce los datos de administrador
+		form.formulario(method="post" action="/admin")
+			div.llenado
+				label.lab Nombre de Administrador
+				input.dat(type="text" name="usuario" placeholder="Nombre de Administrador")
+			div.llenado
+				label.lab Contraseña
+				input.dat(type="password" name="password" placeholder="Contraseña")
+				a.inicio(href="")
+					p.margin ¿Olvidaste tu contraseña?
+			div.llenado
+				input.boton(type="submit" value="Acceder")
+		footer.abajo
+			div.borde
+				img.mexico(src="imgs/ban.png" style="display: inline-block; ")
+				p(style="color: white; display: inline-block; position: absolute; margin-top: 20px;") México United | States antojo.com
+			div.contactos
+				h2.mas EL ANTOJO EN AUTLAN
+				h3.men El antojo en Autlan - Aviso de Privacidad
+				h3.men.icon-phone   +3178737128
+				h3.men.icon-mail3   cameca@live.com.mx
+			p(style="color: white; text-align: center; margin-top: 16px; margin-bottom: 30px; font-size: 10px;") copyright 2017 Grupo El antojo || AVISO DE PRIVACIDAD
+		script(type='text/javascript', src="script/funciones.js")

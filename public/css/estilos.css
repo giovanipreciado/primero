@@ -1,0 +1,547 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.agrupacion{
+	margin-left: 5%;
+
+	height: 100%;
+	text-align: center;
+	display: inline-block;
+}
+
+.principal{
+	width: 100%;
+	height: 85px;
+	background: rgb(51,51,51);
+	box-shadow: 2px 2px 10px #000000;
+	overflow: visible;
+	position: relative;
+	transition: 1s
+}
+
+.inicio{
+	text-decoration: none;
+}
+
+.encabezado{
+	font-size: 40px;
+	color: #ccc6c6;
+	font-family: Broadway;
+}
+
+.subtitulo{
+	color: #b7b1b1;
+	font-family: Goudy Old Style;
+}
+
+.links{
+	float: right;
+	color: #b7b1b1;
+	margin-right: 5%;
+}
+
+.vinculos{
+	text-decoration: none;
+	color: #b7b1b1;
+	margin-left: 45px;
+	font-size: 20px;
+	font-family: Arial Narrow;
+}
+
+.ajuste{
+	border-bottom: 1px solid #2f2e2e;
+}
+
+.ajuste:hover{
+	background: #252424;
+}
+
+.vinculos2{
+	text-decoration: none;
+	color: #b7b1b1;
+	font-size: 20px;
+	font-family: Arial Narrow;
+	margin-left: 12px;
+	display: block;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+
+.sinmargen{
+	margin: 0px;
+}
+
+.vinculos:hover{
+	color: white;
+}
+
+.vinculos2:hover{
+	color: white;
+}
+
+.redes{
+	text-align: right;
+	margin-bottom: 8px;
+	margin-top: 20px;
+}
+
+.redes2{
+	text-align: right;
+	margin-bottom: 8px;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+
+.cerrar{
+	text-decoration: none;
+	color: #e66969;
+	font-size: 15px;
+	margin-right: 5%;
+	position: absolute;
+	right: 0;
+}
+
+.decoracion{
+	text-decoration: none;
+	margin-left: 8px;
+}
+
+.buscas{
+	display: inline-block;
+	font-size: 12px;
+	color: #a7a3a3;
+}
+
+
+.bienvenidos{
+	overflow: hidden;
+	background-image: url(../imgs/menu2.jpg);
+	height: 500px;
+	position: relative;
+
+}
+
+.conteImagen{
+	margin-top: 150px;
+	margin-left: 80px;
+	float: left;
+	display: inline-block;
+}
+
+.movimiento{
+	margin-top: 100px;
+	margin-left: 430px;
+	position: absolute;
+	
+}
+
+.bien{
+	font-size: 80px;
+	font-family: Broadway;
+	color: #132d38;
+	
+}
+
+.texto{
+	width: 600px;
+	font-size: 18px;
+	float: left;
+	margin-top: 200px;
+	color: #132d38;
+	text-align: justify;
+}
+
+.parrafos{
+	margin-bottom: 12px;
+}
+
+.historia{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+
+.nuestra{
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	margin-left: 60px;
+}
+
+.imagenes{
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+.contenedor{
+	display: inline-block;
+	position: relative;
+	margin-top: 12px;
+}
+
+
+.resena{
+	width: 100%;
+	height: 30%;
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+	color: white;
+	font-size: 18px;
+	background: black;
+	opacity: 0.5;
+	padding-bottom: 8px;
+	padding-top: 8px;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.resena:hover{
+	opacity: 0.7;
+	background: red;
+	height: 45%;
+}
+
+
+.pequenas{
+	width: 320px;
+	height: 220px;
+	margin: 0px;
+	vertical-align: bottom;
+}
+
+.margen-iz{
+	margin-left: 15px;
+}
+
+.abajo{
+	background: black;
+	overflow: hidden;
+	position: relative;
+	transition: 1s;
+}
+
+.contactos{
+	color: white;
+	text-align: center;
+	font-size: 10px;
+	margin-top: 30px;
+	float: center;
+}
+
+.mas{
+	margin-bottom: 16px;
+	color: white;
+}
+
+.men{
+	margin-bottom: 8px;
+}
+
+.flot{
+	display: inline-block;
+}
+
+.mexico{
+	width: 30px;
+	height: 20px;
+	margin: 19px 19px 19px 19px;
+}
+
+.borde{
+	border-bottom: 1px solid #5f5959;
+}
+
+.margin{
+	color: #325882;
+	margin-right: 50px;
+	margin-top: 7px;
+}
+
+.formulario{
+	height: 400px;
+}
+
+.llenado{
+	width: 450px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+	text-align: right;
+}
+
+.lab{
+	color: #1e3b50;
+}
+
+.dat{
+	width: 250px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #c3bdbd;
+	margin-left: 8px;
+}
+
+.boton{
+	width: 100px;
+	height: 30px;
+	border-radius: 5px;
+	border: 1px solid #E2DDDD;
+	background: #f1f1f1;
+	transition: 1s;
+	cursor: pointer;
+}
+
+.boton:hover{
+	background: #d6d6d6;
+}
+
+.redondo{
+	background: #201f24;
+	width: 40%;
+	margin-top: 30px;
+	border-radius: 12px;
+	margin-left: 5%;
+	margin-right: 5%;
+	display: inline-block;
+}
+
+.platillos{
+	margin-bottom: 60px;
+}
+
+.color1{
+	color: #ef7147;
+	font-size: 18px;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 20px;
+	float: left;
+}
+
+.color2{
+	color: white;
+	margin-left: 20px;
+	font-size: 13px;
+	margin-top: 45px;
+}
+
+.color3{
+	color: #ef7147;
+	font-size: 30px;
+	float: right;
+	margin-top: 16px;
+	margin-right: 20px;
+}
+
+.plato{
+	text-align: center;
+	margin-top: 12px;
+}
+
+.igual{
+	width: 95%;
+	border-radius: 12px;
+}
+
+.producto{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+.agregar{
+	font-size: 55px;
+	margin-bottom: 20px;
+	color: #40526d;
+}
+
+.nameImage{
+	display: block;
+	text-align: center;
+	font-size: 20px;
+}
+
+.mismos{
+	border: 1px solid #dad8d8;
+	border-radius: 5px;
+}
+
+.elegir{
+	
+}
+
+.nombres{
+	margin-right: 12px;
+	font-size: 20px;
+}
+
+.encapsu{
+	display: inline-block;
+}
+
+.margenes{
+	margin-bottom: 12px;
+}
+
+.botonGrande{
+	width: 90%;
+	height: 35px;
+	border: 1px solid #dad8d8;
+	margin-top: 12px;
+	border-radius: 5px;
+	background: #201f24;
+	color: white;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.costo{
+	height: 40px;
+	width: 100px;
+}
+
+.derecha{
+	text-align: right; 
+	margin-bottom: 12px;
+}
+
+.des{
+	width: 350px;
+	height: 60px;
+	border: 1px solid #dad8d8;
+	border-radius: 5px;
+}
+
+.nomPla{
+	width: 250px;
+	height: 35px;
+}
+
+
+
+.tabla{
+	text-align: center;
+	border-spacing: 0px;
+	width: 95%;
+	margin-right: 2.5%;
+	margin-left: 2.5%;
+	position: relative;
+	margin-top: 50px;
+	border-radius: 12px;
+}
+
+.listado{
+	width: 100px;
+	height: 70px;
+}
+
+td{
+	color: black;
+	text-decoration-style: double;
+	
+	padding: 7px 0px 7px 0px;
+}
+
+tr:nth-of-type(even){
+	background-color: rgba(197,208,212,0.6);
+}
+
+
+thead{
+	font-size: 18px;
+	color: white;
+	background: #05313e;
+}
+
+.panel{
+	font-size: 25px;
+	margin-top: 20px;
+	margin-left: 2.5%;
+}
+
+.usu{
+	display: inline-block;
+	margin-right: 40px;
+	font-size: 20px;
+	color: white;
+}
+
+.acomodo{
+	position: absolute;
+	margin-top: 2px;
+}
+
+.imagenUsuario{
+	text-decoration: none;
+	font-size: 24px;
+	margin-right: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.iconomenu{
+	display: none;
+	float: right;
+	margin-right: 5%;
+}
+
+.vision{
+	font-size: 15px;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+
+}
+
+.amenu{
+	text-decoration: none;
+	color: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+#btn-menu{
+	display: none;
+}
+
+.links2{
+    	display: none;
+    	overflow: visible;
+    	position: absolute;
+    	background: #3e3c3c;
+    	z-index: 1;
+    	right: 0;
+    	top: 85px;
+    	margin-right: 0;
+    	width: 100%;
+    	transition: 1s; 
+    }
+
+.amenu:hover{
+	color: #16759a;
+}
+
+.fixed{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background: #132d38;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .links{
+    	display: none;
+    }
+
+
+
+    .iconomenu{
+    	display: inline-block;
+    }
+
+}
