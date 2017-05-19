@@ -19,7 +19,7 @@ cloudinary.config({
 
 var app = express();
 
-mongoose.connect("mongodb://localhost/antojo_web");
+//mongoose.connect("mongodb://localhost/antojo_web");
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
@@ -34,7 +34,7 @@ var productSchema = {
 	pricing:Number
 };
 
-var Platillo = mongoose.model("Platillo", productSchema);
+//var Platillo = mongoose.model("Platillo", productSchema);
 
 app.set("view engine","jade");
 

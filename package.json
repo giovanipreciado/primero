@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "npm": "node app.js"
+    "start": "node app.js"
   },
   "engines": {
     "node": "4.1.1"
