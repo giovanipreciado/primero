@@ -69,10 +69,10 @@ html(lang='es')
 					div.ajuste
 						a.vinculos2(href='#') Reservaciones
 		section.bienvenidos
-			.conteImagen
-				img.opaco(src='imgs/fondo.png')
 			.movimiento
 				h1.bien BIENVENIDOS
+			.conteImagen
+				img.opaco(src='imgs/fondo.png')
 			.texto
 				p.parrafos
 					| El Antojo es creatividad, es orgullo y es tendencia. También es tradición, pasión, y excelencia.
@@ -85,11 +85,10 @@ html(lang='es')
 				h1.nuestra PLATILLOS NUEVOS
 		.imagenes
 			each platillo in platillos
-				for (var i = platillo.lenght -1; i<=4; i++)
-					.contenedor
-						.resena
-							p.margen-iz=platillo.description
-						img.pequenas(src="#{platillo.imageUrl}")
+				.contenedor
+					.resena
+						p.margen-iz=platillo.description
+					img.pequenas(src="#{platillo.imageUrl}")
 		footer.abajo
 			div.borde
 				img.mexico(src="imgs/ban.png" style="display: inline-block; ")
